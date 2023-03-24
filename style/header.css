@@ -2,6 +2,7 @@
 
 body {
   font-family: "Poppins";
+  text-decoration: none;
 }
 
 header > div {
@@ -10,6 +11,10 @@ header > div {
   justify-content: space-between;
   align-items: center;
   border-bottom: 1px solid lightgray;
+}
+
+.header-top {
+  font-weight: bold;
 }
 
 nav {
@@ -33,30 +38,38 @@ nav a {
   margin-right: 1rem;
 }
 
-.npm-logo{
-    height: 22px;
+.npm-logo {
+  height: 22px;
 }
 
-.search-symbol{
-    background-color: rgba(0,0,0,.05);
-    padding: 13px;
-    height: 15px;
+.search-symbol {
+  background-color: rgba(0, 0, 0, 0.05);
+  padding: 13px;
+  height: 15px;
 }
 
-.search-bar{
-    margin: 0;
+.search-bar {
+  margin: 0;
 }
 
 .search-input {
-    margin: 0;
-    padding: 13;
-    border: 0;
-    background-color: rgba(0,0,0,.05);
+  margin: 0;
+  padding: 13;
+  border: 0;
+  background-color: rgba(0, 0, 0, 0.05);
 }
 
 .search-Button {
-    border: 0;
-    padding: 13px;
-    background-color: #fb3e44;
-    color: white;
+  border: 0;
+  padding: 13px;
+  background-color: #fb3e44;
+  color: white;
+}
+
+#header-button {
+  color: black;
+}
+
+#header-button :visited {
+  color: black;
 }

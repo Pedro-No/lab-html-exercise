@@ -1,84 +1,89 @@
-#main-banner{
-    height: 600px;
-    background-color: rgba(232,217,217,.3);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    text-align: center;
-    align-items: center;
+#main-banner {
+  height: 600px;
+  background-color: rgba(232, 217, 217, 0.3);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
 }
 
 #main-banner > h1 {
-    font-size: 80px;
-    font-weight: bold;
-    margin-bottom: 30px;
+  font-size: 80px;
+  margin-bottom: 30px;
 }
 
 #main-banner > p {
-    margin-bottom: 60px;
-    font-size: 19px;
+  margin-bottom: 60px;
+  font-size: 19px;
 }
 
-.main-button-left{
-    font-size: large;
-    width: 200px;
-    margin: 15px;
-    border: 0;
-    padding: 13px;
-    background-color: #FB3B49;
-    box-shadow: 8px 8px 0 rgba(251,59,73,.2);
-    color: white;
+.main-button-left {
+  font-size: large;
+  font-weight: bold;
+  width: 200px;
+  margin: 15px;
+  border: 0;
+  padding: 13px;
+  background-color: #fb3b49;
+  box-shadow: 8px 8px 0 rgba(251, 59, 73, 0.2);
+  color: white;
 }
 
-.main-button-right{
-    font-size: large;
-    width: 200px;
-    margin: 15px;
-    border: 0;
-    padding: 13px;
-    background-color: white;
+.main-button-right {
+  font-size: large;
+  font-weight: bold;
+  width: 200px;
+  margin: 15px;
+  border: 0;
+  padding: 13px;
+  background-color: white;
 }
 
-#second-banner{
-    height: 600px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    margin-bottom: 10%;
+#second-banner {
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 10%;
 }
 
-.title{
-    background-color: rgba(255,204,53,.4);
-    transform: skew(9deg,0deg);
-    padding: 5px;
+#second-banner > p {
+  margin: 40px;
 }
 
-.title > h1{
-    font-size: 37px;
-    transform: skew(-9deg,0deg);
-    margin: 0px;
+.title {
+  background-color: rgba(255, 204, 53, 0.4);
+  transform: skew(9deg, 0deg);
+  padding: 5px;
 }
 
-.second-banner-img{
-    height: 300px;
-    padding: 100px;
+.title > h1 {
+  font-size: 37px;
+  transform: skew(-9deg, 0deg);
+  margin: 0px;
 }
 
-#third-banner{
-    display: flex;
-    justify-content: center;
+.second-banner-img {
+  height: 300px;
+  padding: 100px;
 }
 
-#column{
-    width: 15%;
-    margin: 2%;
+#third-banner {
+  display: flex;
+  justify-content: center;
+}
+
+#column {
+  width: 15%;
+  margin: 2%;
 }
 
 #column > img {
-    height: 30px;
+  height: 30px;
 }
 
 #column > h2 {
-    color: #ED1C24;
+  color: #ed1c24;
 }
