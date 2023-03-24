@@ -1,0 +1,39 @@
+#main-banner{
+    height: 600px;
+    background-color: rgba(232,217,217,.3);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-button-left{
+    margin: 0;
+    border: 0;
+    padding: 13px;
+    background-color: #FB3B49;
+    box-shadow: 8px 8px 0 rgba(251,59,73,.2);
+}
+
+.main-button-right{
+    margin: 0;
+    border: 0;
+    padding: 13px;
+    background-color: white;
+}
+
+#second-banner{
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.second-banner-img{
+    height: 300px;
+    padding: 100px;
+}
+
+#third-banner{
+    display: flex;
+}

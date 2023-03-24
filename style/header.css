@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins");
+
+body {
+  font-family: "Poppins";
+}
+
+header > div {
+  padding: 0 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid lightgray;
+}
+
+nav {
+  width: 600px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+}
+
+.blackHeart {
+  width: 20px;
+  margin-right: 1rem;
+}
+
+.npm-logo{
+    height: 22px;
+}
+
+.search-symbol{
+    background-color: rgba(0,0,0,.05);
+    padding: 13px;
+    height: 15px;
+}
+
+.search-bar{
+    margin: 0;
+}
+
+.search-input {
+    margin: 0;
+    padding: 13;
+    border: 0;
+    background-color: rgba(0,0,0,.05);
+}
+
+.search-Button {
+    border: 0;
+    padding: 13px;
+    background-color: #fb3e44;
+    color: white;
+}
